@@ -1,5 +1,91 @@
 /* styles.css */
 body {
-    background-color: rebeccapurple;
-  }
-  
+    background-color: brown;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    z-index: 10;
+    position: fixed;
+    padding: 30px 50px;
+    width: 100%;
+    color: beige;
+    display: flex;
+    align-items: center;
+}
+
+#name {
+    color: beige;
+    text-align: center;
+    margin: auto;
+}
+
+#jumbo {
+    background-image: url(./assets/main_img.jpg);
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    z-index: 0;
+}
+
+#contentStart {
+    min-height: 1000px;
+    background: beige;
+    margin: 800px 0 0 0;
+    padding-top: 50px;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+}
+
+#contentStart>*{
+    padding: 0 8.33%;
+}
+
+.sectionHeading {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+.line {
+    height: 4px;
+    background: brown;
+    width: 75%;
+    margin-left:auto;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.monthly {
+    margin: 50px 0;
+    display:flex;
+    align-items: center;
+}
+
+.monthlyTxt {
+    min-width: 50%;
+    background-color: red;
+    border-radius: 20px;
+}
+
+.monthlyImg {
+    width: 40%;
+    margin: auto;
+    background-color: purple;
+    height: 400px;
+
+}
